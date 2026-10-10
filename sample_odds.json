@@ -1,0 +1,214 @@
+[
+ {
+  "id": "1",
+  "commence_time": "2026-10-11T17:00:00Z",
+  "home_team": "Team B",
+  "away_team": "Team A",
+  "bookmakers": [
+   {
+    "key": "pinnacle",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team A",
+        "price": -115
+       },
+       {
+        "name": "Team B",
+        "price": 100
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "bookx",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team A",
+        "price": 120
+       },
+       {
+        "name": "Team B",
+        "price": -140
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "booky",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team A",
+        "price": -130
+       },
+       {
+        "name": "Team B",
+        "price": 115
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "2",
+  "commence_time": "2026-10-11T20:00:00Z",
+  "home_team": "Team D",
+  "away_team": "Team C",
+  "bookmakers": [
+   {
+    "key": "bookx",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team C",
+        "price": -200
+       },
+       {
+        "name": "Team D",
+        "price": 170
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "booky",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team C",
+        "price": -210
+       },
+       {
+        "name": "Team D",
+        "price": 175
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "4",
+  "commence_time": "2026-10-11T22:00:00Z",
+  "home_team": "Team H",
+  "away_team": "Team G",
+  "bookmakers": [
+   {
+    "key": "pinnacle",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team G",
+        "price": -240
+       },
+       {
+        "name": "Team H",
+        "price": 205
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "bookx",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team G",
+        "price": -250
+       },
+       {
+        "name": "Team H",
+        "price": 210
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "booky",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team G",
+        "price": -205
+       },
+       {
+        "name": "Team H",
+        "price": 170
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "5",
+  "commence_time": "2026-10-11T23:00:00Z",
+  "home_team": "Team F",
+  "away_team": "Team E",
+  "bookmakers": [
+   {
+    "key": "bookx",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team E",
+        "price": -400
+       },
+       {
+        "name": "Team F",
+        "price": 330
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "booky",
+    "markets": [
+     {
+      "key": "h2h",
+      "outcomes": [
+       {
+        "name": "Team E",
+        "price": -420
+       },
+       {
+        "name": "Team F",
+        "price": 340
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
