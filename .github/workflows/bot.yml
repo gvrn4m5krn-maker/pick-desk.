@@ -1,0 +1,30 @@
+name: Pick Desk Auto Bot
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # Automatically runs every 10 minutes
+  workflow_dispatch:      # Allows you to click "Run workflow" manually anytime
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install required Python libraries
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Execute Odds Bot Script
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python bot.py
